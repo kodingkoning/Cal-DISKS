@@ -1,7 +1,8 @@
 theme: jekyll-theme-minimal
 title: Cal-DisKS
 description: Elizabeht Koning's senior project at Calvin University
-show_downloads: True
+header_pages:
+  about-me.md
 navigation:
   - title: About Me
     url: about-me
