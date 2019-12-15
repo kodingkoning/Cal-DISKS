@@ -1,1 +1,12 @@
 theme: jekyll-theme-minimal
+
+navigation:
+  - title: Home
+    url: /
+  - title: About Me
+    url: about-me
+  - title: Calvin Department of Computer Science
+    url: cs.calvin.edu
+  - title: Senior Project Homepage
+    url: https://cs.calvin.edu/courses/cs/396/index.html
+    
