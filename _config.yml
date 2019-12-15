@@ -1,12 +1,3 @@
 theme: jekyll-theme-minimal
 title: Cal-DisKS
-description: Elizabeht Koning's senior project at Calvin University
-header_pages:
-  about-me.md
-navigation:
-  - title: About Me
-    url: about-me
-  - title: Calvin CS Department
-    url: https://cs.calvin.edu
-  - title: Senior Project Homepage
-    url: https://cs.calvin.edu/courses/cs/396/index.html    
+description: Calvin/Berkeley Distributed k-mer Sketcher
