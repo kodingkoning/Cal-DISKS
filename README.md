@@ -1,13 +1,19 @@
-# Calvin University Senior Project
+## Project Overview
 
-## Cal-DISKS: Calvin Distributed K-mer Sketcher
+Genetic research involves immense volumes of data in sequences of DNA. A common question about the sequences is: how similar are two or more sequences? A widespread approach to answering the question is using k-mers, which are segments of length k that make up the larger sequence. Comparing the sets of k-mers for the sequences can give an estimate of the similarity between the sequences.
 
-[About Me](./about-me.md)
+This project builds on existing work on k-mer sketchers to develop a parallelized, distributed implementation of a k-mer sketcher. K-mer sketching, as an alternative to the more precise k-mer counting, addresses issues of memory limitations, as it effectively compresses the data, resulting in a compact summary of the data with a lower level of error than sampling offers. This project focuses on creating an efficient and usable system.
 
-[Calvin CS Department](https://cs.calvin.edu)
+## Project Status
 
-[Department's Senior Project Information](https://cs.calvin.edu/courses/cs/396/index.html)
+The project is currently on schedule. After overcoming some delays in the project, I have selected a base sequential k-mer sketcher to work with, meeting the December 1 deadline.
 
-### Project Overview
+Work on the project will resume in early February.
 
-### Project Status
+## Background Material
+
+[Base k-mer Sketcher - sketch](https://github.com/dnbaker/sketch)
+
+[Mash Paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0997-x)
+
+[Sketch Slides](https://f1000research.com/slides/8-1866)
