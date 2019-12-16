@@ -17,12 +17,9 @@ Three softwares include:
 
 This project is built off of [sketch](https://github.com/dnbaker/sketch). Of the three, it is by far the easiest to install. Unlike OMH, it has the benefit of being written entirely in C++. Unlike Mash, it was very straightforward to build. Mash has many dependencies.
 
-We decided not to use Mas as the project's base because of the difficulties we had in installing the software from source.
-
-
+We decided not to use Mash as the project's base because of the difficulties we had in installing the software from source.
 
 ## 4. Results and discussion
-
 
 ## 5. Conclusions
 Conclusions will be made in the spring semester.
@@ -39,5 +36,11 @@ Development for this project has been on Cori and LBNL.
 
 ## 8. References
 
-Ondov, B.D., Treangen, T.J., Melsted, P. *et al.* Mash: fast genome and metagenome distance estimation using MinHash. *Genome Biol* 17, 132 (2016) doi:[10.1186/s13059-016-0997-x](https://doi.org/10.1186/s13059-016-0997-x)
+Guillaume Marçais, Dan DeBlasio, Prashant Pandey, Carl Kingsford, Locality-sensitive hashing for the edit distance, Bioinformatics, Volume 35, Issue 14, July 2019, Pages i127–i135, https://doi.org/10.1093/bioinformatics/btz354
+
+ Langmead BT and Baker D. Genomic sketching with HyperLogLog [version 1; not peer reviewed]. F1000Research 2019, 8:1866 (slides) (https://doi.org/10.7490/f1000research.1117605.1)
+
+Rowe, W.P.M. When the levee breaks: a practical guide to sketching algorithms for processing the flood of genomic data. Genome Biol 20, 199 (2019) [doi:10.1186/s13059-019-1809-x](https://doi.org/10.1186/s13059-019-1809-x)
+
+Ondov, B.D., Treangen, T.J., Melsted, P. *et al.* Mash: fast genome and metagenome distance estimation using MinHash. *Genome Biol* 17, 132 (2016) [doi:10.1186/s13059-016-0997-x](https://doi.org/10.1186/s13059-016-0997-x)
 
