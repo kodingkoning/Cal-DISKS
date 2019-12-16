@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 title: Cal-DisKS
 description: Calvin/Berkeley Distributed k-mer Sketcher
+logo: /cal-disks-logo.png
 navigation:
   - title: About Me
     url: about-me
