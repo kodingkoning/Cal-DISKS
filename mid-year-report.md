@@ -1,5 +1,7 @@
 # Progress Report
 
+View the project at [github.com/kodingkoning/sketch](https://github.com/kodingkoning/sketch). This repo is private, so please send an email to koningelizabeth@gmail.com to request access.
+
 ## 1. Project vision and overview
 Genetic research involves immense volumes of data in sequences of DNA. A common question about the sequences is: how similar are two or more sequences? A widespread approach to answering the question is using k-mers, which are segments of length k that make up the larger sequence. Comparing the sets of k-mers for the sequences can give an estimate of the similarity between the sequences.
 
@@ -8,7 +10,7 @@ This project builds on existing work on k-mer sketchers to develop a parallelize
 ## 2. Background, including research review
 There are currently many sequential k-mer sketches that have been developed.
 
-Three softwares that have been include:
+Three existing softwares are:
 
 1. [sketch](https://github.com/dnbaker/sketch)
 2. [Mash](https://github.com/marbl/Mash)
@@ -16,11 +18,15 @@ Three softwares that have been include:
 
 ## 3. System design, implementation and testing
 
-This project is built off of [sketch](https://github.com/dnbaker/sketch). Of the three, it is by far the easiest to install. Unlike OMH, it has the benefit of being written entirely in C++. Unlike Mash, it was very straightforward to build. Mash has many dependencies.
+This project is built off of [sketch](https://github.com/dnbaker/sketch). Of the three existing softwares we evaluated for the project, it is by far the easiest to install and modify.
 
-We decided not to use Mash as the project's base because of the difficulties we had in installing the software from source.
+We decided not to use OMH as the project's base because of 1) challenges with understanding the API and 2) the number of languages used in the project. In order to modify a software for the distributed version, it is necessary to have it in C or C++.
 
-More to come in this section.
+Mash's API was very clear, and it was written entirely in C++. However, its depencies make it difficult to build from source. It also saves results to files between creating a sketch and calculating the distance between two sketches. We anticipate that this would be inefficient in terms of time.
+
+We will be using [BCL](https://github.com/berkeley-container-library/bcl) (Berkely Container Library) ror the distributed data structures.
+
+The next step of the project is profiling the sequential version of sketch.
 
 ## 4. Results and discussion
 
