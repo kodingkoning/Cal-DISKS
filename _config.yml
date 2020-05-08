@@ -5,6 +5,8 @@ logo: /cal-disks-logo.png
 navigation:
   - title: Home
     url: /
+  - title: Source Code
+    url: https://github.com/kodingkoning/sketch
   - title: Mid-Year Progress Report
     url: mid-year-report
   - title: About Me

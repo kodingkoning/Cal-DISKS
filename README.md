@@ -4,12 +4,6 @@ Genetic research involves immense volumes of data in sequences of DNA. A common 
 
 This project builds on existing work on k-mer sketchers to develop a parallelized, distributed implementation of a k-mer sketcher. K-mer sketching, as an alternative to the more precise k-mer counting, addresses issues of memory limitations, as it effectively compresses the data, resulting in a compact summary of the data with a lower level of error than sampling offers. This project focuses on creating an efficient and usable system.
 
-## Project Status
-
-The project is currently on schedule. After overcoming some delays in the project, I have selected a base sequential k-mer sketcher to work with, meeting the December 1 deadline.
-
-Work on the project will resume in early February.
-
 ## Background Material
 
 [Base k-mer Sketcher - sketch](https://github.com/dnbaker/sketch)

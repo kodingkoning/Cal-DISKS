@@ -1,0 +1,11 @@
+GEM
+  remote: https://kodingkoning.github.io/Cal-DISKS/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+
+BUNDLED WITH
+   2.1.4
