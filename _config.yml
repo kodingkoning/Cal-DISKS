@@ -11,6 +11,8 @@ navigation:
     url: video
   - title: Final Presentation Slides
     url: final-slides.pdf
+  - title: References
+    url: references
   - title: About Me
     url: about-me
   - title: Calvin CS Department
