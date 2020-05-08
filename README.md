@@ -8,7 +8,7 @@ This project builds on existing work on k-mer sketchers to develop a parallelize
 
 ## Research References
 
-Did [https://math.stackexchange.com/users/6179/did](https://math.stackexchange.com/users/6179/did). Finding expected number of distinct values selected from a set of integers. Mathematics Stack Exchange. URL:[https://math.stackexchange.com/q/72229](https://math.stackexchange.com/q/72229) (version: 2017-07-20).
+Did ([https://math.stackexchange.com/users/6179/did](https://math.stackexchange.com/users/6179/did)). Finding expected number of distinct values selected from a set of integers. Mathematics Stack Exchange. URL:[https://math.stackexchange.com/q/72229](https://math.stackexchange.com/q/72229) (version: 2017-07-20).
 
 Guillaume Marçais, Dan DeBlasio, Prashant Pandey, Carl Kingsford, Locality-sensitive hashing for the edit distance, Bioinformatics, Volume 35, Issue 14, July 2019, Pages i127–i135, [https://doi.org/10.1093/bioinformatics/btz354](https://doi.org/10.1093/bioinformatics/btz354)
 
