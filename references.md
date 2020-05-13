@@ -1,5 +1,7 @@
 ## Research References
 
+Benjamin Brock, Aydın Buluç, and Katherine Yelick. 2019. BCL: A Cross-Platform Distributed Data Structures Library. In Proceedings of the 48th International Conference on Parallel Processing (ICPP 2019). Association for Computing Machinery, New York, NY, USA, Article 102, 1–10. DOI:[https://doi.org/10.1145/3337821.3337912](https://doi.org/10.1145/3337821.3337912)
+
 Did ([https://math.stackexchange.com/users/6179/did](https://math.stackexchange.com/users/6179/did)). Finding expected number of distinct values selected from a set of integers. Mathematics Stack Exchange. URL:[https://math.stackexchange.com/q/72229](https://math.stackexchange.com/q/72229) (version: 2017-07-20).
 
 Guillaume Marçais, Dan DeBlasio, Prashant Pandey, Carl Kingsford, Locality-sensitive hashing for the edit distance, Bioinformatics, Volume 35, Issue 14, July 2019, Pages i127–i135, [https://doi.org/10.1093/bioinformatics/btz354](https://doi.org/10.1093/bioinformatics/btz354)
