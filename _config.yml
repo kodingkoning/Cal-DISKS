@@ -11,6 +11,8 @@ navigation:
     url: video
   - title: Final Presentation Slides
     url: final-slides.pdf
+  - title: Writeup
+    url: writeup.pdf
   - title: References
     url: references
   - title: About Me
@@ -19,3 +21,5 @@ navigation:
     url: https://cs.calvin.edu
   - title: Senior Project Homepage
     url: https://cs.calvin.edu/courses/cs/396/index.html    
+plugins:
+  - jekyll-latex
